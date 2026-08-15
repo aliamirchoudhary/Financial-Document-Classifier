@@ -1,0 +1,35 @@
+# --- model weights ---
+# checkpoint is tracked via Git LFS (see .gitattributes); only untrack binaries that are NOT LFS pointers
+*.bin
+*.pt
+*.onnx
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- env / secrets ---
+.env
+*.env.local
+
+# --- data & artifacts (confidential training corpus/source files) ---
+data/*
+!data/.gitkeep
+*.jsonl
+extraction.jsonl
+results/
+
+# --- editor / os ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- logs / tmp ---
+*.log
+*.log.err
+*.tmp

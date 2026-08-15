@@ -1,0 +1,9 @@
+# Model checkpoint — large files, track via Git LFS (3.7+)
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+model.safetensors filter=lfs diff=lfs merge=lfs -text
+
+# Tokenizer + config are small (<1MB) but part of the checkpoint artifact;
+# keeping the whole checkpoint set in LFS makes reloads atomic.
+config.json filter=lfs diff=lfs merge=lfs -text
+tokenizer.json filter=lfs diff=lfs merge=lfs -text
+tokenizer_config.json filter=lfs diff=lfs merge=lfs -text
