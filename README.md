@@ -6,7 +6,8 @@
 <img src="https://img.shields.io/badge/accuracy-94.5%25-brightgreen" alt="Accuracy"/>&nbsp;
 <img src="https://img.shields.io/badge/macro%20F1-93.3%25-28a745" alt="Macro F1"/>&nbsp;
 <img src="https://img.shields.io/badge/weights-Git%20LFS-2ea44f" alt="Weights via Git LFS"/>&nbsp;
-<img src="https://img.shields.io/badge/visibility-public-1f6feb" alt="Public"/>
+<img src="https://img.shields.io/badge/visibility-public-1f6feb" alt="Public"/>&nbsp;
+<img src="https://img.shields.io/badge/license-MIT-555" alt="MIT License"/>
 
 # Financial Audit Document Classifier
 
@@ -217,4 +218,4 @@ python -m pytest tests/test_api.py
 
 ---
 
-###### License: see the repository owner. Training data and source documents are NOT redistributed in this repo.
+###### License: [MIT](LICENSE). Training data and source documents are NOT redistributed in this repo.
